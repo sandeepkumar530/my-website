@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./bmi.component.css']
 })
 export class BmiComponent {
-
+  height:number=0;
+  weight:number=0;
+  result:number=0;
+  bmi(){
+    this.result=this.weight/(this.height*this.height);
+  }
 }

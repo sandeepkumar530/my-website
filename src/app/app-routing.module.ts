@@ -9,6 +9,7 @@ import { RectangleComponent } from './rectangle/rectangle.component';
 import { BmiComponent } from './bmi/bmi.component';
 
 const routes: Routes = [
+  {path:'',component:HomeComponent},
   {path:'home',component:HomeComponent,children:[
     {path:'welcome',component:WelcomeComponent},
     {path:'calculator',component:CalculatorComponent},
