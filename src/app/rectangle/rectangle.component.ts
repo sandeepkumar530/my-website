@@ -13,6 +13,6 @@ export class RectangleComponent {
     this.result=this.length*this.breadth;
   }
 perimeter(){
-  this.result=2*this.length+2*this.breadth;
+  this.result=(2*this.length)+(2*this.breadth);
 }
 }

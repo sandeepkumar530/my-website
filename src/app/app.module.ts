@@ -11,6 +11,8 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { RectangleComponent } from './rectangle/rectangle.component';
 import { CircleComponent } from './circle/circle.component';
 import { BmiComponent } from './bmi/bmi.component';
+import { ProdutsComponent } from './products/produts.component';
+import { StatesComponent } from './states/states.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { BmiComponent } from './bmi/bmi.component';
     RectangleComponent,
     CircleComponent,
     BmiComponent,
+    ProdutsComponent,
+    StatesComponent,
   ],
   imports: [
     BrowserModule,

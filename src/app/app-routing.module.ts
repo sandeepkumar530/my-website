@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Directive, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -7,6 +7,7 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { CircleComponent } from './circle/circle.component';
 import { RectangleComponent } from './rectangle/rectangle.component';
 import { BmiComponent } from './bmi/bmi.component';
+import { ProdutsComponent } from './products/produts.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -16,7 +17,8 @@ const routes: Routes = [
     {path:'databinding',component:DatabindingComponent},
     {path:'circle',component:CircleComponent},
     {path:'rectangle',component:RectangleComponent},
-    {path:'bmi',component:BmiComponent}
+    {path:'bmi',component:BmiComponent},
+{path:'directives',component:ProdutsComponent}
   ]}
   ];
 
