@@ -13,6 +13,8 @@ import { CircleComponent } from './circle/circle.component';
 import { BmiComponent } from './bmi/bmi.component';
 import { ProdutsComponent } from './products/produts.component';
 import { StatesComponent } from './states/states.component';
+import { EmplyeeComponent } from './emplyee/emplyee.component';
+import { FlipcartComponent } from './flipcart/flipcart.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { StatesComponent } from './states/states.component';
     BmiComponent,
     ProdutsComponent,
     StatesComponent,
+    EmplyeeComponent,
+    FlipcartComponent,
   ],
   imports: [
     BrowserModule,

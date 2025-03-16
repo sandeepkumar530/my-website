@@ -8,6 +8,8 @@ import { CircleComponent } from './circle/circle.component';
 import { RectangleComponent } from './rectangle/rectangle.component';
 import { BmiComponent } from './bmi/bmi.component';
 import { ProdutsComponent } from './products/produts.component';
+import { EmplyeeComponent } from './emplyee/emplyee.component';
+import { FlipcartComponent } from './flipcart/flipcart.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -18,7 +20,9 @@ const routes: Routes = [
     {path:'circle',component:CircleComponent},
     {path:'rectangle',component:RectangleComponent},
     {path:'bmi',component:BmiComponent},
-{path:'directives',component:ProdutsComponent}
+{path:'directives',component:ProdutsComponent},
+{path:'emplyee',component:EmplyeeComponent},
+{path:'flipcart',component:FlipcartComponent}
   ]}
   ];
 
